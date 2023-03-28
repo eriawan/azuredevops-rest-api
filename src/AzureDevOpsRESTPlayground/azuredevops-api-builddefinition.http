@@ -1,0 +1,12 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+@organization=YOURORGANIZATION
+@teamproject=YOURTEAMPROJECT
+@apiversion=7.0
+@azdopat=YOURPAT
+
+# GET all build definitions
+
+GET https://dev.azure.com/{{organization}}/{{teamproject}}/_apis/build/definitions?api-version={{apiversion}}
+Authorization: Basic {{azdopat}}
+
+###
