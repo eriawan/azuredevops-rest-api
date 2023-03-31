@@ -3,6 +3,7 @@
 @teamproject=YOURTEAMPROJECT
 @apiversion=7.0
 @azdopat=YOURPAT
+@groupID=123
 
 # GET all variable groups
 
@@ -10,3 +11,8 @@ GET https://dev.azure.com/{{organization}}/{{teamproject}}/_apis/distributedtask
 Authorization: Basic {{azdopat}}
 
 ###
+
+# GET variable groups with specific ID
+
+GET https://dev.azure.com/{{organization}}/{{teamproject}}/_apis/distributedtask/variablegroups/{{groupID}}?api-version={{apiversion}}
+Authorization: Basic {{azdopat}}
