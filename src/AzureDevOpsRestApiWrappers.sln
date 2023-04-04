@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureDevOpsRESTPlayground", "AzureDevOpsRESTPlayground\AzureDevOpsRESTPlayground.csproj", "{A34FD347-810F-4DA7-BD42-13FAFAD91594}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rx.AzDo.BaseObject", "Rx.AzDo.BaseObject\Rx.AzDo.BaseObject.csproj", "{60EB1BBC-B10F-4243-A559-C9EEEC6103EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,18 @@ Global
 		{A34FD347-810F-4DA7-BD42-13FAFAD91594}.Release|x64.Build.0 = Release|Any CPU
 		{A34FD347-810F-4DA7-BD42-13FAFAD91594}.Release|x86.ActiveCfg = Release|Any CPU
 		{A34FD347-810F-4DA7-BD42-13FAFAD91594}.Release|x86.Build.0 = Release|Any CPU
+		{60EB1BBC-B10F-4243-A559-C9EEEC6103EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60EB1BBC-B10F-4243-A559-C9EEEC6103EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60EB1BBC-B10F-4243-A559-C9EEEC6103EE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{60EB1BBC-B10F-4243-A559-C9EEEC6103EE}.Debug|x64.Build.0 = Debug|Any CPU
+		{60EB1BBC-B10F-4243-A559-C9EEEC6103EE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{60EB1BBC-B10F-4243-A559-C9EEEC6103EE}.Debug|x86.Build.0 = Debug|Any CPU
+		{60EB1BBC-B10F-4243-A559-C9EEEC6103EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60EB1BBC-B10F-4243-A559-C9EEEC6103EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60EB1BBC-B10F-4243-A559-C9EEEC6103EE}.Release|x64.ActiveCfg = Release|Any CPU
+		{60EB1BBC-B10F-4243-A559-C9EEEC6103EE}.Release|x64.Build.0 = Release|Any CPU
+		{60EB1BBC-B10F-4243-A559-C9EEEC6103EE}.Release|x86.ActiveCfg = Release|Any CPU
+		{60EB1BBC-B10F-4243-A559-C9EEEC6103EE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
