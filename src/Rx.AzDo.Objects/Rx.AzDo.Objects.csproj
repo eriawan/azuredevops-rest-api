@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Rx.AzDo</RootNamespace>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>RX Azure DevOps Objects</Title>
+    <Copyright>Proud labor of Eriawan Kusumawardhono and RX Communica</Copyright>
+    <PackageProjectUrl>https://github.com/eriawan/azuredevops-rest-api</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/eriawan/azuredevops-rest-api</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+</Project>
