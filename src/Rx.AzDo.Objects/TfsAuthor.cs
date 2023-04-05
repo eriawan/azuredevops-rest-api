@@ -16,7 +16,7 @@ namespace Rx.AzDo.BaseObject
         public String DisplayName { get; set; } = "";
 
         [JsonPropertyName("id")]
-        public Guid Id { get; set; }
+        public String Id { get; set; } = "";
 
         [JsonPropertyName("uniqueName")]
         public String UniqueName { get; set; } = "";
