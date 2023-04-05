@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace Rx.AzDo.BaseObject
@@ -12,7 +13,10 @@ namespace Rx.AzDo.BaseObject
     /// <typeparam name="T">a TfsObjectBase derived class that describe the TFS object</typeparam>
     public class TfsObjectList<T> where T : TfsObjectBase
     {
+        [JsonPropertyName("count")]
         public int Count { get; set; }
-        public List<T>? Value { get; set; }
+
+        [JsonPropertyName("value")]
+        public List<T> Value { get; set; } = new List<T>();
     }
 }
