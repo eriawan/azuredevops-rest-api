@@ -10,7 +10,7 @@ namespace Rx.AzDo.BaseObject
     /// <summary>
     /// Represents author of creation and modification.
     /// </summary>
-    public class TfsAuthor
+    public class TfsSimpleAuthor
     {
         [JsonPropertyName("displayName")]
         public String DisplayName { get; set; } = "";

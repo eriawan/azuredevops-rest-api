@@ -21,16 +21,29 @@ namespace Rx.AzDo.BaseObject
         [JsonPropertyName("name")]
         public String Name { get; set; } = "";
 
+        /// <summary>
+        /// A required information about initial object creator
+        /// </summary>
         [JsonPropertyName("createdBy")]
-        public TfsAuthor CreatedBy { get; set; } = new();
+        public TfsSimpleAuthor CreatedBy { get; set; } = new();
 
+        /// <summary>
+        /// A required information about the date of the creation
+        /// </summary>
         [JsonPropertyName("createdOn")]
         public DateTime CreatedOn { get; set; }
 
+        /// <summary>
+        /// An optional information about the creator of last modification
+        /// </summary>
         [JsonPropertyName("modifiedBy")]
-        public TfsAuthor? ModifiedBy { get; set; }
+        public TfsSimpleAuthor? ModifiedBy { get; set; }
 
+        /// <summary>
+        /// An optional information about the date of last modification
+        /// </summary>0
         [JsonPropertyName("modifiedOn")]
         public DateTime? ModifiedOn { get; set; }
+
     }
 }
