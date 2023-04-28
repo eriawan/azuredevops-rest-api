@@ -14,6 +14,9 @@ namespace Rx.AzDo.DistributedTask.VariableGroups
         public List<KeyValuePair<String,TfsVariableValueInVariableGroups>> Variables { get; set; } = new();
 
         [JsonPropertyName("variableGroupProjectReferences")]
-        public List<TfsVariableGroupProjectReference> VariableGroupProjectReferences { get; set; } = new();
+        public List<TfsVariableGroupCompositeProjectReference> VariableGroupProjectReferences { get; set; } = new();
+
+        [JsonPropertyName("isShared")]
+        public bool IsShared { get; set; }
     }
 }
