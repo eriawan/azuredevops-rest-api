@@ -13,12 +13,12 @@ namespace Rx.AzDo.BaseObject
     public class TfsSimpleAuthor
     {
         [JsonPropertyName("displayName")]
-        public String DisplayName { get; set; } = "";
+        public String? DisplayName { get; set; } = "";
 
         [JsonPropertyName("id")]
-        public String Id { get; set; } = "";
+        public String? Id { get; set; } = "";
 
         [JsonPropertyName("uniqueName")]
-        public String UniqueName { get; set; } = "";
+        public String? UniqueName { get; set; } = "";
     }
 }
